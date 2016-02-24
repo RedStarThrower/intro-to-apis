@@ -3,21 +3,33 @@
 }
 
 body {
-	font-size: 20px;
+	font-size: 15px;
 }
+
+/*Input*/
+
+input[type="text"] {
+  display:block; 
+  width: 20%;
+  margin: 20px auto;
+  border: 2px solid #555;
+  outline: none;
+}
+
+/*Legislators*/
 
 .legislatorContainer {
 	display: inline-block;
 	vertical-align: top;
-	text-align: center;
-	
-	width: 20%;
+	text-align: center;	
+	width: 30%;
 	border: 2px solid #ddd;
 	background: #9DDC91;
-	margin: 5%;
+	margin: 1%;
 }
 
-img {
-	border: 15px solid pink;
-	margin: 10px;
+
+.legislatorContainer .list {
+	text-align: left;	
+
 }
