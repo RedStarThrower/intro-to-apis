@@ -43,7 +43,7 @@ var legislatorToHTML = function(legislatorObj) {
 		newString += '<li><p>website:' + " " + '<a href="'+ legislatorObj.website +'" target="_blank">'+legislatorObj.website+'</a>' + '<p></li>' 
 		newString += '<li><p>facebook:' + " " + legislatorObj.facebook_id +'<p></li>'
 		newString += '<li><p>twitter:' + " " + legislatorObj.twitter_id +'<p></li>' 
-		newString += '<li><p>contact form:' + " " + '<a href="'+ legislatorObj.contact_form + '" target="_blank">' + legislatorObj.contact_form +'</a>' + '<p></li>' + '</ul>' 
+		+ '</ul>' 
 		newString += '<h5 class="termEnd">Term Start:' + " " + legislatorObj.term_start+ '</h5>'
 		newString += '<h5 class="termEnd">Term End:' + " " + legislatorObj.term_end + '</h5>'
 	+ '</div>'

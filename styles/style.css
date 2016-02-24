@@ -3,7 +3,7 @@
 }
 
 body {
-	font-size: 15px;
+	font-size: 18px;
 }
 
 /*Input*/
@@ -31,5 +31,7 @@ input[type="text"] {
 
 .legislatorContainer .list {
 	text-align: left;	
+	padding-left: 15%;
+	padding-right: 15%;
 
 }
