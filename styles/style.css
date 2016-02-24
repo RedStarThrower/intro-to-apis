@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 20px;
+}
+
+.legislatorContainer {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	
+	width: 20%;
+	border: 2px solid #ddd;
+	background: #9DDC91;
+	margin: 5%;
+}
+
+img {
+	border: 15px solid pink;
+	margin: 10px;
+}
